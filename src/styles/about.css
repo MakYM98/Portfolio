@@ -1,0 +1,103 @@
+.aboutArea {
+    height: '100%';
+    background-color: #1A1A1D;
+    justify-content: center;
+    align-content: center;
+}
+
+#aboutSection{
+    margin-left:10%;
+    margin-right:10%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#aboutDesc{
+    text-align: center;
+    width: 70%;
+}
+
+.skillBar {
+    width: 100%; /* Full width */
+    background-color: #4E4E50; /* Grey background */
+    border-radius: 5px;
+    height: 7%;
+    margin-bottom: 1%;
+  }
+
+.skills {
+    text-align: right;
+    border-radius: 5px;
+}
+
+#skillsSection{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+#skillHeader{
+    text-align: center;
+    margin-top: 4%;
+    color:#950740;
+}
+
+.percentageText{
+    margin-right: 1%;
+    color: white;
+    height: 100%;
+    font-size: 13px;
+}
+
+.html {width: 80%; height:100%; background-color: #C3073F;}
+.js {width: 60%; height:100%; background-color: #C3073F;}
+.react {width: 60%; height:100%; background-color: #C3073F;}
+.python {width: 80%; height:100%; background-color: #C3073F;}
+.excel {width: 70%; height:100%; background-color: #C3073F;}
+.sqlite {width: 50%; height:100%; background-color: #C3073F;}
+.chinese {width: 70%; height:100%; background-color: #C3073F;}
+.english {width: 80%; height:100%; background-color: #C3073F;}
+
+#certSection{
+    margin-left:25%;
+    margin-right:25%;
+}
+
+#certDiv {
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+img{
+    width:33%;
+    height:100%;
+    margin-right:1%;
+    display:inline-block;
+}
+
+#arrowButtonLeft {
+    width: 5%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#leftArrow{
+    width: 5%;
+    height: 70%;
+    color: #C3073F;
+}
+
+#rightArrow {
+    width: 5%;
+    height: 70%;
+    color: #C3073F;
+    margin-left: 1%;
+}
+
+#certButtons{
+    align-content: center;
+    justify-content: center;
+    margin-top: 2%;
+    display: flex;
+}

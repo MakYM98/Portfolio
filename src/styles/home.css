@@ -1,0 +1,50 @@
+#academicSection {
+    margin-top: 15%;
+    text-align: left;
+}
+
+#experienceSection {
+    margin-top: 10%;
+    text-align: left;
+}
+
+#aboutMeSection{
+    margin-top:15%;
+    text-align: left;
+}
+
+.titleColor {
+    color:#950740;
+}
+
+.homeArea {
+    height: 100%;
+    width: 100%;
+    background-color: #1A1A1D;
+}
+
+h5 {
+    color:white
+}
+
+p{
+    color: #4E4E50
+}
+
+#homeTitle{
+    width:fit-content;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 70px;
+    font-family: oswald;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #950740, #950740);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 40% 2px;
+    transition: background-size .5s ease;
+}
+
+#homeTitle:hover {
+    background-size: 100% 2px;
+}

@@ -1,0 +1,15 @@
+#projectArea{
+    background-color: #1A1A1D;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#projectHeader{
+    color: #950740;
+    padding-top: 2%;
+}
+
+.projImage{
+    width: 20%;
+}
