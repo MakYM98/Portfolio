@@ -9,7 +9,7 @@ import {BrowserRouter as Router, Routes, Route,NavLink}from "react-router-dom"
 function App() {
   return (
     <div className='App'>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           <nav>
             <li><NavLink to='/' style={styles.homeLinkStyle} className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLink></li>
