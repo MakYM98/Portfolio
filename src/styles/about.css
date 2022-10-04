@@ -1,5 +1,5 @@
 .aboutArea {
-    height: '100%';
+    height: 100%;
     background-color: #1A1A1D;
     justify-content: center;
     align-content: center;
@@ -50,13 +50,13 @@
 }
 
 .html {width: 80%; height:100%; background-color: #C3073F;}
-.js {width: 60%; height:100%; background-color: #C3073F;}
-.react {width: 60%; height:100%; background-color: #C3073F;}
+.js {width: 70%; height:100%; background-color: #C3073F;}
+.react {width: 70%; height:100%; background-color: #C3073F;}
 .python {width: 80%; height:100%; background-color: #C3073F;}
 .excel {width: 70%; height:100%; background-color: #C3073F;}
 .sqlite {width: 50%; height:100%; background-color: #C3073F;}
-.chinese {width: 70%; height:100%; background-color: #C3073F;}
-.english {width: 80%; height:100%; background-color: #C3073F;}
+.kotlin {width: 50%; height:100%; background-color: #C3073F;}
+.git {width: 70%; height:100%; background-color: #C3073F;}
 
 #certSection{
     margin-left:25%;

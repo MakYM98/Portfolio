@@ -10,7 +10,7 @@ function TopNav() {
         <Container>
           <Nav className="m-auto">
             <Nav.Link href="/" >Home</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/skills">Skill</Nav.Link>
             <Nav.Link href="/project">Projects</Nav.Link>
           </Nav>
         </Container>

@@ -6,7 +6,7 @@ import "../styles/home.css"
 
 function Home() {
   return (
-    <div className='homeArea'>
+    <div id='homeArea'>
       <Container style={{height:'100%'}} fluid>
         <Row style={styles.topRowStyles}>
           <h1 className='titleColor' id='homeTitle'>Mak Yeong Meng</h1>
@@ -14,6 +14,7 @@ function Home() {
         <Row>
           {/* Left Part */}
           <Col style={{height:'100%', display:'flex', alignContent:'center', justifyContent:'center'}}>
+            <div id="vl"></div>
             <div id="academicSection">
               <h4 className='titleColor'>Academic Qualification</h4>
                 <h5> BSc in Computer Science</h5>
@@ -43,15 +44,21 @@ function Home() {
 
           {/* Right Part */}
           <Col  style={{height:'100%', display:'flex', alignContent:'center', justifyContent:'center'}}>
-          <div id="academicSection">
+          <div id="aboutMeSection">
               <h4 className='titleColor'>Software Engineer</h4>
                 <h5> Based in Singapore</h5>
-                <p> Hi! I am a Final Year Computer Science student who is looking to start as a Software Engineer! </p>
+                <p> Hi! I am a Final Year Computer Science student who is looking to start as a Software Engineer!  am dedicated to developing applications that are able to 
+                  help solve business problems and value-add to the company. </p>
                 <p> 
-                  I am dedicated to developing applications that are able to help solve business problems and value-add to the company.
+                  During my time in ABB,I was able to experience multiple stages of the software development cycle. 
+                  I have went through the Planning stage up to the implementation stage. I was tasked to develop a 
+                  software prototype using Python and have attended multiple review sessions to retrieve feedbacks from stakeholders on the
+                  current state of our software and make adjustments from there.
                 </p>
                 <p> 
-                  To learn more about me and the skills I possess, feel free to click the button down below!
+                  On the other hand, when I was in CrescoData, I was working with data from our own platform and perform data cleaning and manipulation
+                  to produce reports that suit the needs of the client. Furthermore, I have also worked with APIs from different e-commerce platforms to 
+                  retrieve relevant data that will be beneficial to the client's needs.
                 </p>
 
             </div>

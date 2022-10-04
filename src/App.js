@@ -13,14 +13,14 @@ function App() {
         <div>
           <nav>
             <li><NavLink to='/Portfolio' style={styles.homeLinkStyle} className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLink></li>
-            <li><NavLink to='/about' style={styles.navLinkStyle}>About</NavLink></li>
+            <li><NavLink to='/skills' style={styles.navLinkStyle}>Skills</NavLink></li>
             <li><NavLink to='/project' style={styles.navLinkStyle}>Projects</NavLink></li>
           </nav>
         </div>
         <Routes>
             <Route path="/Portfolio" element={<Home />} />
             <Route path="/project" element={<Project />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<About />} />
         </Routes>
         
       </Router>
